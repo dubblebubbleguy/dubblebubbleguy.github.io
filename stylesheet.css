@@ -53,7 +53,6 @@ a {
 	font-size: 16pt;
 	text-align: left;
 	font-weight: 300;
-	display: inline-block;
 }
 
 a:hover {
@@ -97,9 +96,29 @@ ul {
 	font-weight: 500;
 }
 
+.disclaimer {
+	font-size: 12pt;
+}
+
 @media only screen and (max-width: 1280px) {
 	nav {
 		float: none;
+	}
+	
+	h3 {
+		font-size: 26pt;
+	}
+	
+	h4 {
+		font-size: 20pt;
+	}
+	
+	a {
+		font-size: 20pt;
+	}
+	
+	.disclaimer {
+		font-size: 16pt;
 	}
 }
 
