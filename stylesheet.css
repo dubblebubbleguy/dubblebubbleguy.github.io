@@ -123,7 +123,7 @@ ul {
 		float: none;
 	}
 	
-	h3 {
+	/*h3 {
 		font-size: 26pt;
 	}
 	
@@ -141,7 +141,7 @@ ul {
 	
 	.disclaimer {
 		font-size: 16pt;
-	}
+	}*/
 }
 
 @media only screen and (max-width: 850px) {
@@ -151,23 +151,30 @@ ul {
 }
 
 @media only screen and (max-width: 480px) {
-	h3 {
-		font-size: 26pt;
+	.nav-button {
+		margin: 10px;
+		display: list-item;
 	}
 	
-	h4 {
-		font-size: 20pt;
+	h1 {
+		color: #505050;
+		font-family: 'Roboto', sans-serif;
+		font-size: 25pt;
 	}
 	
-	a {
-		font-size: 20pt;
+	h2 {
+		color: #505050;
+		font-family: 'Roboto', sans-serif;
+		font-size: 18pt;
 	}
 	
-	.container-date {
-		font-size: 20pt;
-	}
-	
-	.disclaimer {
-		font-size: 16pt;
+	.background-container {
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-left: 0%;
+		margin-right: 0%;
+		margin-bottom: 25px;
 	}
 }
