@@ -100,6 +100,24 @@ ul {
 	font-size: 12pt;
 }
 
+.moderator {
+	color: purple;
+}
+
+.republican {
+	color: #e9141d;
+}
+
+.democrat {
+	color: blue;
+}
+
+@media only screen and (max-width: 1480px) {
+	nav {
+		float: none;
+	}
+}
+
 @media only screen and (max-width: 1280px) {
 	nav {
 		float: none;
@@ -129,5 +147,27 @@ ul {
 @media only screen and (max-width: 850px) {
 	.inline-container {
 		display: block;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	h3 {
+		font-size: 26pt;
+	}
+	
+	h4 {
+		font-size: 20pt;
+	}
+	
+	a {
+		font-size: 20pt;
+	}
+	
+	.container-date {
+		font-size: 20pt;
+	}
+	
+	.disclaimer {
+		font-size: 16pt;
 	}
 }
