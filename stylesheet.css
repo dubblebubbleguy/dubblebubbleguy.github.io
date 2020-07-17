@@ -112,6 +112,17 @@ ul {
 	color: blue;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+img:hover {
+	box-shadow: 0 0 2px 3px #DCB732;
+}
+
 @media only screen and (max-width: 1480px) {
 	nav {
 		float: none;
