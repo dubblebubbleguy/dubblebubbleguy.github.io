@@ -112,6 +112,40 @@ ul {
 	color: blue;
 }
 
+.independent {
+	color: #fc03ad;
+}
+
+.libertarian {
+	color: #DCB732;
+}
+
+.aye {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #AAFFAA;
+}
+
+.abstain {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.nay {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #FF7777;
+}
+
+.sub-container {
+	background-color: #404040;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom: 25px;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
