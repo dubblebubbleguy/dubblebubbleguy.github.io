@@ -120,6 +120,10 @@ ul {
 	color: #DCB732;
 }
 
+.libertarian2 {
+	color: #F08710;
+}
+
 .aye {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
@@ -127,6 +131,12 @@ ul {
 }
 
 .abstain {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.not-present {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -144,6 +154,23 @@ ul {
 	padding-top: 3px;
 	padding-bottom: 3px;
 	margin-bottom: 25px;
+}
+
+.politician-overlay {
+	font-weight: 300;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: rgba(0,0,0,0.3);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.politician {
+	font-weight: 500;
+}
+
+.politician:hover .politician-overlay {
+	opacity: 1;
 }
 
 img {
