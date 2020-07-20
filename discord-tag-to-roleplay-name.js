@@ -5,7 +5,7 @@ var discordTagsToRoleplayNames = {
 	"drifters🍿#9665": "Drifters",
 	"dubblebubbleguy#8460": "Dubblebubbleguy",
 	"andreasersson05#6619": "Andreas Ersson",
-	"Landers#7367": "Alejandro Landers",
+	"Landers#7367": "Spencer Landers",
 	"Ive_been_crushed_by_a_giant_bell#8544": "Dennis Edwards",
 	"GodofPolitics#7746": "GodofPolitics",
 	"Nick R#6802": "Nicholas Richardson",
