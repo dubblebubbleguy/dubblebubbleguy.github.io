@@ -105,9 +105,9 @@ ul {
 }
 
 .list-header {
-	color: #DF2935;
+	/*color: #DF2935;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
+	font-weight: 500;*/
 }
 
 .disclaimer {
@@ -136,6 +136,14 @@ ul {
 
 .libertarian2 {
 	color: #F08710;
+}
+
+.rwn-anchor {
+	color: #DF2935
+}
+
+.rwn-guest {
+	color: #1B5AFA;
 }
 
 .aye {
