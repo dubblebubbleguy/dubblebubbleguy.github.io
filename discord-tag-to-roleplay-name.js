@@ -10,6 +10,7 @@ var discordTagsToRoleplayNames = {
 	"GodofPolitics#7746": "GodofPolitics",
 	"Nick R#6802": "Nicholas Richardson",
 	"Kaidon Spare For President#2299": "Kaidon Spare",
+	"Kaidon Spare#2299": "Fmr. President Kaidon Spare",
 };
 
 var politicianLists = document.getElementsByClassName("politician");
