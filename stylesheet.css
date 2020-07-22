@@ -22,7 +22,6 @@ body {
 
 header {
 	background-color: #050505;
-	margin: auto;
 	width: 100%;
 	height: 40px;
 }
@@ -270,18 +269,29 @@ img:hover {
 	.inline-container {
 		display: block;
 	}
+	
+	header {
+		margin-bottom: 10px;
+	}
 }
 
 @media only screen and (max-width: 480px) {
+	.inline-container {
+		display: block;
+	}
+	
+	.ad-container {
+		display: none;
+	}
+	
+	header {
+		margin: auto;
+		height: auto;
+	}
+	
 	.nav-button {
 		margin: 10px;
 		display: list-item;
-	}
-	
-	h1 {
-		color: #505050;
-		font-family: 'Roboto', sans-serif;
-		font-size: 25pt;
 	}
 	
 	h2 {
