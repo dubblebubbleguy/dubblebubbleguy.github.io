@@ -4,6 +4,11 @@ var adData = {
 		["src"]: "../../../../../ad.PNG",
 		["link"]: "../../../../../rent-an-ad.html"
 	},
+	["nickForPresident"]: {
+		["chance"]: 2,
+		["src"]: "../../../../../ads/nickForPresident.PNG",
+		["link"]: "../../../../../rent-an-ad.html"
+	},
 };
 
 function selectRandomAd() {
