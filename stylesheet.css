@@ -233,6 +233,11 @@ img:hover {
 	float: right;
 }
 
+.quote {
+	border-left: 5px red solid;
+	padding-left: 10px;
+}
+
 @media only screen and (max-width: 1480px) {
 	nav {
 		float: none;

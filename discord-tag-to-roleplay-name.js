@@ -11,6 +11,7 @@ var discordTagsToRoleplayNames = {
 	"Nick R#6802": "Nicholas Richardson",
 	"Kaidon Spare For President#2299": "Kaidon Spare",
 	"Kaidon Spare#2299": "Fmr. President Kaidon Spare",
+	"Anderson Yanderson#3588": "Senator Yanderson",
 };
 
 var politicianLists = document.getElementsByClassName("politician");
