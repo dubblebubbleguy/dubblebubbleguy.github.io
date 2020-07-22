@@ -218,6 +218,22 @@ img:hover {
 	display: block;
 }
 
+.ad-container {
+	width: 13%;
+	height: 80%;
+	margin-top: 20px;
+}
+
+#ad-container-left {
+	margin-left: 1%;
+	float: left;
+}
+
+#ad-container-right {
+	margin-right: 1%;
+	float: right;
+}
+
 @media only screen and (max-width: 1480px) {
 	nav {
 		float: none;
