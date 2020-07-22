@@ -6,7 +6,7 @@ var adData = {
 	},
 	["nickForPresident"]: {
 		["chance"]: 2,
-		["src"]: "../../../../../ads/nickForPresident.PNG",
+		["src"]: "../../../../../nickForPresident.PNG",
 		["link"]: "../../../../../rent-an-ad.html"
 	},
 };
