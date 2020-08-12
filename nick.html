@@ -1,0 +1,83 @@
+<HTML>
+	<head>
+		<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans&display=swap" rel="stylesheet">
+		<style>
+			.fly-out {
+				background-color: #041E42;
+				position: absolute;
+				width: 80%;
+				left: -57%;
+				overflow: hidden;
+				display: inline;
+				transition: ease 1s;
+				font-family: "Bree Serif", serif;
+				color: #FFFFFF;
+			}
+			
+			.fly-out:hover {
+				left: 0%;
+			}
+			
+			.fly-out-content {
+				display: flex;
+				width: 70%;
+				float: left;
+				font-family: "PT Sans", sans-serif;
+			}
+			
+			.fly-out-content-padding {
+				padding: 10px;
+			}
+			
+			.fly-out-header {
+				display: flex;
+				width: 25%;
+				float: right;
+			}
+			
+			.fly-out-buffer {
+				display: flex;
+				width: 5%;
+				float: right;
+			}
+			
+			
+		</style>
+	</head>
+	<body style="background-image: url('nick2.png'); background-position: center; background-repeat: no-repeat; background-attachment: fixed;  background-size: cover;">
+		<ul id="quote-list">
+			<div class="fly-out">
+				<div class="fly-out-content">
+					<div class="fly-out-content-padding">
+						<h2>When Kaidon Spare resigned as president, Nick was ready to take the reigns and secure our future as a country. During his time in the white house, President Richardson has passed X executive orders and helped push X bills through congress.
+					</div>
+				</div>
+				<div class="fly-out-buffer"></div>
+				<div class="fly-out-header">
+					<h1>Nicholas Richardson has been working hard since day one.</h1>
+				</div>
+			</div>
+			
+			<div class="fly-out">
+				<div class="fly-out-content">
+					<div class="fly-out-content-padding">
+						<h2>When Kaidon Spare resigned as president, Nick was ready to take the reigns and secure our future as a country. During his time in the white house, President Richardson has passed X executive orders and helped push X bills through congress.
+					</div>
+				</div>
+				<div class="fly-out-buffer"></div>
+				<div class="fly-out-header">
+					<h1>Nick is a cool guy</h1>
+				</div>
+			</div>
+		</ul>
+		
+		<script>
+			var totalHeight = 30;
+			for(var i=0;i<document.getElementById("quote-list").children.length;i++) {
+				console.log(i);
+				document.getElementById("quote-list").children[i].style.top = totalHeight+"px";
+				totalHeight = totalHeight + document.getElementById("quote-list").children[i].offsetHeight + 30;
+			}
+		</script>
+	</body>
+</HTML>
